@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
 import os
-from werkzeug.utils import secure_filename
 
 from tensorflow.keras.utils import custom_object_scope
 from tensorflow.keras.models import load_model
